@@ -12,7 +12,6 @@ mkdir -p $DOTFILES_DIR
 cd $DOTFILES_DIR
 git clone https://github.com/fajkoson/dotfiles.git
 cd dotfiles
-sudo chmod +x setup
 ./setup
 ```
 

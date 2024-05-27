@@ -31,7 +31,7 @@ unset MAILCHECK
 
 # ---------- path configuration -------
 
-PATH="${PATH:+${PATH}:}"$SCRIPTS":"$HOME"/.local/bin:$HOME/dotnet"
+PATH="$DOTFILES:${PATH:+${PATH}:}$SCRIPTS:$HOME/.local/bin:$HOME/dotnet"
 export PATH
                                        
 # -------------- history --------------

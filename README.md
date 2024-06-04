@@ -17,6 +17,7 @@ cd dotfiles
 after initial install do:
 sudo apt update
 sudo apt upgrade
+sudo snap install starship --edge
 sudo apt install neovim
 sudo apt install build-essential
 sudo apt install fzf

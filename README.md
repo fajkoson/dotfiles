@@ -13,5 +13,13 @@ cd $DOTFILES_DIR
 git clone https://github.com/fajkoson/dotfiles.git
 cd dotfiles
 ./setup
+
+after initial install do:
+sudo apt update
+sudo apt upgrade
+sudo apt install neovim
+sudo apt install build-essential
+sudo apt install fzf
+
 ```
 

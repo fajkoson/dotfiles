@@ -64,6 +64,8 @@ clone() {
 	cd "$name"
 } && export -f clone
 
+# promt
+eval "$(starship init bash)"
 
 # source .bash_aliases if it exists
 if [ -f ~/.bash_aliases ]; then
